@@ -173,3 +173,133 @@
       <ul>
         <li>Data Analyst Associate certified</li>
         <li>Dashboards &amp; reporting</li>
+      </ul>
+    </div>
+    <div class="platform-card">
+      <div class="platform-cat">Analytics</div>
+      <h4>Google Analytics 4</h4>
+      <span class="fluency-tag">Working knowledge</span>
+      <ul>
+        <li>Traffic &amp; engagement analysis</li>
+        <li>Campaign measurement</li>
+      </ul>
+    </div>
+    <div class="platform-card">
+      <div class="platform-cat">Search</div>
+      <h4>Google Ads</h4>
+      <span class="fluency-tag">Familiarity</span>
+      <ul>
+        <li>Search campaign fundamentals</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- HOW I WORK -->
+<section class="section-dark work-section reveal">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow" style="color:#9CA596">How I work</span>
+      <h2>From brief to performance.</h2>
+    </div>
+
+    <div class="work-steps">
+      <div class="work-step">
+        <div class="step-num">01</div>
+        <h4>Understand</h4>
+        <ul>
+          <li>Business objective</li>
+          <li>Audience</li>
+          <li>Market</li>
+          <li>Funnel</li>
+        </ul>
+      </div>
+      <div class="work-step">
+        <div class="step-num">02</div>
+        <h4>Activate</h4>
+        <ul>
+          <li>Channel strategy</li>
+          <li>Targeting</li>
+          <li>Creative</li>
+          <li>Media setup</li>
+        </ul>
+      </div>
+      <div class="work-step">
+        <div class="step-num">03</div>
+        <h4>Optimise</h4>
+        <ul>
+          <li>Performance signals</li>
+          <li>Testing</li>
+          <li>Audience response</li>
+          <li>Budget allocation</li>
+        </ul>
+      </div>
+      <div class="work-step">
+        <div class="step-num">04</div>
+        <h4>Learn</h4>
+        <ul>
+          <li>Results</li>
+          <li>Insights</li>
+          <li>Next actions</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="work-statement">The platform is the tool. The decision-making is the value.</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="wrap reveal" id="about">
+  <div class="about-grid">
+    <div>
+      <span class="eyebrow">About</span>
+    </div>
+    <div>
+      <h2 style="margin-bottom:24px;">Paid media, with a communications foundation.</h2>
+      <p>I work across programmatic, paid social, campaign planning and performance analysis — with hands-on DV360 activation and LinkedIn demand-generation experience, supported by several years in marketing and communications across global markets.</p>
+      <p>That background shapes how I approach media: I read a brief for what it's really asking, translate an audience into a platform structure, and stay close to the data after a campaign goes live — not just to report delivery, but to explain what changed and why.</p>
+
+      <div class="training-note">
+        <span class="label">Specialist training &amp; education</span>
+        <ul>
+          <li>Programmatic Advertising — Adtechademy (DV360 practical training)</li>
+          <li>MBA, Communications &amp; Marketing Management — Haaga-Helia UAS</li>
+          <li>Inbound Marketing — HubSpot Academy</li>
+          <li>Power BI Data Analyst Associate — Microsoft</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="section-dark" id="contact">
+  <div class="wrap footer-inner">
+    <div>
+      <h3>Let's talk media, campaigns and performance.</h3>
+      <div class="footer-name">Richa Asthana · Paid Media · Programmatic · Paid Social</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/asthanaricha/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:richa.asthana88@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">CV</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 8);
+  });
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
